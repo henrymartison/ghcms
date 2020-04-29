@@ -79,7 +79,7 @@ class TripsScreen extends Component {
 
           <View style={styles.displayImageInfo}>
             <View style={styles.priceTag}>
-              <Text style={styles.price}>75ghs/day</Text>
+              <Text style={styles.price}>$50,100</Text>
             </View>
             <View style={styles.carInfoRow}>
               <View>
@@ -240,10 +240,11 @@ const styles = StyleSheet.create({
   },
   priceTag: {
     height: 30,
-    width: 115,
+    minWidth: 100,
+    paddingHorizontal: 20,
     backgroundColor: slateGray,
     position: "absolute",
-    left: "32%",
+    left: "38%",
     top: -15,
     borderRadius: 20,
     alignItems: "center",

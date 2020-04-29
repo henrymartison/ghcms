@@ -7,7 +7,7 @@ export const SampleData = [
     brand: "Tesla",
     year: "2018",
     type: "electric",
-    price_per_day: "107"
+    price: "142,000"
   },
   {
     id: 11,
@@ -17,7 +17,7 @@ export const SampleData = [
     brand: "Benz",
     year: "2020",
     type: "automatic",
-    price_per_day: "99"
+    price: "35,100"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const SampleData = [
     brand: "Land Rover",
     year: "2018",
     type: "automatic",
-    price_per_day: "103.87"
+    price: "42,650"
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const SampleData = [
     brand: "Land Rover",
     year: "1985",
     type: "manual",
-    price_per_day: "33"
+    price: "14,500"
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const SampleData = [
     brand: "Kia Motors",
     year: "2017",
     type: "automatic",
-    price_per_day: "85.49"
+    price: "25,300"
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ export const SampleData = [
     brand: "Hyundai",
     year: "2017",
     type: "automatic",
-    price_per_day: "79"
+    price: "22,485"
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ export const SampleData = [
     brand: "Hyundai",
     year: "2018",
     type: "automatic",
-    price_per_day: "83"
+    price: "23,535"
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ export const SampleData = [
     brand: "Toyota",
     year: "2018",
     type: "automatic",
-    price_per_day: "109"
+    price: "75,000"
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ export const SampleData = [
     brand: "Toyota",
     year: "2019",
     type: "automatic",
-    price_per_day: "109"
+    price: "65,168"
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const SampleData = [
     brand: "Ford",
     year: "2019",
     type: "automatic",
-    price_per_day: "110"
+    price: "25,605"
   },
   {
     id: 10,
@@ -106,7 +106,7 @@ export const SampleData = [
     brand: "Benz",
     year: "2018",
     type: "automatic",
-    price_per_day: "100.99"
+    price: "42,100"
   },
   {
     id: 12,
@@ -116,6 +116,6 @@ export const SampleData = [
     brand: "Tesla",
     year: "2018",
     type: "electric",
-    price_per_day: "107"
+    price: "142,000"
   }
 ];

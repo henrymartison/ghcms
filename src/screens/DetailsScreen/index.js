@@ -44,7 +44,7 @@ class DetailsScreen extends Component {
 
         <View style={styles.detailsContainer}>
           <View style={styles.priceTag}>
-            <Text style={styles.price}>75ghs/day</Text>
+            <Text style={styles.price}>$50,100</Text>
           </View>
           <ScrollView showsVerticalScrollIndicator={false}>
             <View style={styles.personalInfo}>
@@ -82,6 +82,32 @@ class DetailsScreen extends Component {
               </View>
             </View>
 
+            <View
+              style={[
+                styles.controlMenu,
+                { marginBottom: -20, paddingHorizontal: 0 }
+              ]}
+            >
+              <Text style={[styles.personName, { color: "grey" }]}>
+                Specifications
+              </Text>
+              <TouchableOpacity
+                onPress={() => alert("Route to specification sheet")}
+                style={{ padding: 5 }}
+              >
+                <View style={styles.rand_row}>
+                  <Text
+                    style={[
+                      styles.personName,
+                      { color: tintColor, marginRight: 4 }
+                    ]}
+                  >
+                    View All
+                  </Text>
+                  <Ionicons name="ios-arrow-forward" color={tintColor} />
+                </View>
+              </TouchableOpacity>
+            </View>
             <View style={styles.makeInfoCol}>
               <View>
                 <View style={styles.makeInfoRow}>

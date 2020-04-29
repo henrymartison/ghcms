@@ -26,7 +26,7 @@ class HomeFlatlist extends Component {
         </TouchableOpacity>
         <View style={styles.infoContainer}>
           <View style={styles.priceTag}>
-            <Text style={styles.price}>{item.price_per_day}ghs/day</Text>
+            <Text style={styles.price}>${item.price}</Text>
           </View>
           <View style={styles.carInfoRow}>
             <View>
@@ -41,7 +41,7 @@ class HomeFlatlist extends Component {
               {item.year} {item.type}
             </Text>
             <TouchableOpacity style={styles.bookButton}>
-              <Text style={{ color: "white", fontWeight: "500" }}>Book</Text>
+              <Text style={{ color: "white", fontWeight: "500" }}>Buy</Text>
             </TouchableOpacity>
           </View>
         </View>
